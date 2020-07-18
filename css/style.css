@@ -1,0 +1,148 @@
+
+
+
+/** side nav CSS**/
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 20px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+@media screen and (max-height: 450px) {
+.sidenav {padding-top: 15px;}
+.sidenav a {font-size: 18px;}
+}
+/* Footer */
+.q{
+  opacity: 0.4;
+  }
+  .q:hover{
+      opacity:1.0;
+  }
+  footer {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.bg-secondary-1 {
+  background-color: #2f2933 !important;
+}
+footer.short {
+  font-size: 16px;
+  color: #ffffff;
+}
+
+/** signup and signin forms**/
+.form{
+	max-width: 330px;
+    padding: 15px;
+    margin: auto;
+    box-sizing: border-box;
+    margin-top: 00px;
+}
+.form2{
+	max-width: 600px;
+	padding:15px;
+	box-sizing: border-box;
+
+}
+body{
+	align-items: center;
+}
+.Day{
+	float: left;
+	width: 25%;
+}
+.Month{
+	float: left;
+	width: 25%;
+	margin-left: 25px;
+}
+.Year{
+	float: left;
+	width: 30%;
+	margin-left: 25px;
+}
+
+.btn_SignUp{
+	width: 28%;
+}
+.background{
+	background: #1da1f2;
+	height: 100%
+}
+.class2{
+	width: 80%;
+	margin-left:40px; 
+}
+.Icon{
+	    background: transparent;
+    display: inline-block;
+    font-style: normal;
+    vertical-align: baseline;
+    position: relative;
+    content: "\f058";
+}
+
+.play2{
+  position:absolute;
+	top:0;
+	left:0;
+	width:240px;
+  height:345px;
+  display:block;
+  z-index:5;
+	cursor:pointer;
+  display:none;
+}
+.name2{
+  text-align:center;
+  padding-left:30px; 
+	padding-top:200px;
+	display:block;
+}
+
+.play {
+	position:absolute;
+	top:0;
+	left:0;
+	width:240px;
+  height:345px;
+  display:block;
+  display:none;
+}
+.name {
+	font-weight:bold;
+  font-size:14px;
+  color:#fff;
+  text-align:center;
+	display:block;
+}
+#oo{
+  position: absolute ;
+  z-index: 0;
+}
+
